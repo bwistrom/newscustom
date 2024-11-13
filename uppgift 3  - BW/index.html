@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uppgift 3</title>
+</head>
+<body>
+    <script> // This is part 2a of the assignment
+        let start = 1;
+        let end = 10
+        let result = '';
+             for (let i = start; i <= end; i++) 
+                if (i == 5) result += 'Q' 
+                    else if (i % 2 === 0) result += 'X'; 
+                     else result += 'O'
+                console.log(result);
+        
+        // part 2 of the assignment (did not totally figure out the random function but managed som spaces :)
+    const maxSpaces = 5
+ for(let i = 0; i <= maxSpaces; i++) {
+        let spaces = ' '.repeat(i);
+        console.log(spaces + 'O');
+    }
+
+
+for (let i = 0; i < 20; i++) {
+    amountOFSpaces = Math.floor(Math.random() * 5) + 1
+    document.write('O')
+    console.log('O')
+}
+    
+let cityNames = ["kiruna","uppsala","malmo","gothenborg","stockholm"]
+for (let i = 0; i < cityNames.length; i++) {
+    let city = cityNames[i]
+    for (let j = 0; j < city.length; j++)
+        console.log(city[j]);
+    
+}
+    </script>
+</body>
+</html>
